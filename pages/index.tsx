@@ -5,7 +5,7 @@ export default function IndexPage() {
   return (
     <>
       <Header />
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center font-notosans m-32'>
           <Image
             src="/image/nkt_logo_v2.png"
             width={300}
