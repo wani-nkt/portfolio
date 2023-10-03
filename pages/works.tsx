@@ -1,7 +1,33 @@
-import Header from '../components/Header'
 import Image from 'next/image'
+import { useState } from 'react';
+import Modal from 'react-modal'
+import WorksModalContent from '../components/WorksModal'
 
-export default function AboutPage() {
+const customStyles = {
+    content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+    },
+};
+
+export default function WorksPage() {
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function afterOpenModal() {
+    }
+
+    function closeModal() {
+        setIsOpen(false);
+    }
+
     return (
         <>
             <div className='flex justify-center items-center font-notosans text-center'>
@@ -16,9 +42,20 @@ export default function AboutPage() {
                                 height={270}
                                 alt="nkt logo" />
                         </div>
+                        <button onClick={openModal}>Open</button>
                     </div>
-
                 </div>
+                <Modal
+                    isOpen={modalIsOpen}
+                    onAfterOpen={afterOpenModal}
+                    onRequestClose={closeModal}
+                    style={customStyles}
+                    contentLabel="Works Modal"
+                >
+                    <button onClick={closeModal}>close</button>
+                    <WorksModalContent />
+                </Modal>
+
             </div>
 
         </>

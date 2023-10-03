@@ -1,6 +1,4 @@
-import Header from '../components/Header'
-
-export default function AboutPage() {
+export default function ContactPage() {
     return (
         <>
             <div className='flex justify-center items-center font-notosans text-center'>
