@@ -4,7 +4,6 @@ import Image from 'next/image'
 export default function AboutPage() {
     return (
         <>
-            <Header />
             <div className='flex justify-center items-center font-notosans text-center'>
                 <div>
                     <h2 className=' text-5xl mt-10'>Works</h2>
@@ -13,8 +12,8 @@ export default function AboutPage() {
                         <p className='text-xl p-5'>2023 May</p>
                         <div className='flex justify-center items-center'>
                             <Image src="/image/watalab_signage.png"
-                                width={500}
-                                height={500}
+                                width={480}
+                                height={270}
                                 alt="nkt logo" />
                         </div>
                     </div>

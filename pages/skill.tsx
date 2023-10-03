@@ -3,7 +3,6 @@ import Header from '../components/Header'
 export default function AboutPage() {
     return (
         <>
-            <Header />
             <div className='flex justify-center items-center font-notosans text-center'>
                 <div>
                     <h2 className=' text-5xl mt-10'>Skill</h2>

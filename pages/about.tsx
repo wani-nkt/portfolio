@@ -4,8 +4,7 @@ import Image from 'next/image'
 export default function AboutPage() {
   return (
     <>
-      <Header />
-      <div className='flex justify-center items-center font-notosans'>
+      <div className='flex justify-center font-notosans items-center'>
         <div>
           <h2 className='text-center text-4xl mt-10'>About</h2>
           <div className='flex justify-center items-center mt-10'>

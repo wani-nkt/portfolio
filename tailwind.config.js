@@ -9,7 +9,12 @@ module.exports = {
         "./src/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                "nkt-blue": "#0075ff",
+                "nkt-second": "#75b6ff",
+            },
+        },
         fontFamily: {
             notosans: ["Noto Sans JP", "sans-serif"],
         },
