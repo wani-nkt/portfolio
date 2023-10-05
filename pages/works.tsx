@@ -30,9 +30,9 @@ export default function WorksPage() {
 
     return (
         <>
-            <div className='flex justify-center items-center font-notosans text-center'>
+            <div className='flex justify-center items-center font-notosans font-light text-center'>
                 <div>
-                    <h2 className=' text-5xl mt-10'>Works</h2>
+                    <h2 className=' text-4xl mt-10 font-normal'>Works</h2>
                     <div className=' border-black border rounded-3xl p-10 mt-10'>
                         <h3 className='text-3xl'>研究室向けデジタルサイネージ</h3>
                         <p className='text-xl p-5'>2023 May</p>
@@ -42,7 +42,9 @@ export default function WorksPage() {
                                 height={270}
                                 alt="nkt logo" />
                         </div>
-                        <button onClick={openModal}>Open</button>
+                        <div className='flex justify-end'>
+                            <button onClick={openModal} className='pt-2 text-right'>詳細を見る</button>
+                        </div>
                     </div>
                 </div>
                 <Modal
@@ -52,7 +54,7 @@ export default function WorksPage() {
                     style={customStyles}
                     contentLabel="Works Modal"
                 >
-                    <button onClick={closeModal}>close</button>
+                    <button onClick={closeModal} className='font-notosans font-extralight'>閉じる</button>
                     <WorksModalContent />
                 </Modal>
 

@@ -38,7 +38,7 @@ export default function Header(currentPage: Props) {
   })
 
   return (
-    <header className='flex justify-center items-center font-notosans text-2xl my-10'>
+    <header className='flex justify-center items-center font-notosans font-light text-2xl my-10'>
       <nav>
         {headerLinks}
       </nav>

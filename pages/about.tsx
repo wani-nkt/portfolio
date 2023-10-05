@@ -14,7 +14,7 @@ export default function AboutPage() {
               alt="nkt logo"
             />
           </div>
-          <div className='text-xl'>
+          <div className='text-xl font-light'>
             <div className='text-center mt-10'>
               <p>Osaka University</p>
               <p>The Graduate School of Information Science and Technology</p>
