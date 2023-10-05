@@ -24,6 +24,9 @@ export default function AboutPage() {
               <p>Web開発を勉強中</p>
               <p>フロントエンド開発のアルバイト経験あり</p>
             </div>
+            <div className='text-center mt-10'>
+              <a href='https://github.com/wani-nkt/portfolio' className=' underline text-nkt-blue  underline-offset-4'>GitHub repository</a>
+            </div>
           </div>
         </div>
       </div>
