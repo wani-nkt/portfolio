@@ -15,6 +15,7 @@ export default function AboutPage() {
             />
           </div>
           <div className='text-xl font-light'>
+            <div className='text-center mt-10 text-3xl font-normal'>nkt</div>
             <div className='text-center mt-10'>
               <p>Osaka University</p>
               <p>The Graduate School of Information Science and Technology</p>

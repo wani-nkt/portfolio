@@ -13,7 +13,7 @@ export default function SkillPage() {
                     <div>
                         <h3 className='text-3xl mt-16'>Frameworks</h3>
                         <p className='text-xl mt-5  font-light'>
-                            HTML, CSS, TypeScript, JavaScript, Python, C, ...
+                            Next.js, Vue.js, TailwindCSS, Bootstrap, ... 
                         </p>
                     </div>
                     <div>
