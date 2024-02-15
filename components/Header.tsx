@@ -9,6 +9,7 @@ const pages: { name: string, path: string }[] = [
   { name: "About", path: "/about" },
   { name: "Skill", path: "/skill" },
   { name: "Works", path: "/works" },
+  { name: "Blog", path: "/blog" },
   { name: "Contact", path: "/contact" }
 ]
 
